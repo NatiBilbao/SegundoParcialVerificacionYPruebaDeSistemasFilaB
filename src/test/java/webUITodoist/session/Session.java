@@ -1,7 +1,7 @@
-package webUI.session;
+package webUITodoist.session;
 
 import org.openqa.selenium.WebDriver;
-import webUI.factoryBrowser.FactoryBrowser;
+import webUITodoist.factoryBrowser.FactoryBrowser;
 
 import java.time.Duration;
 

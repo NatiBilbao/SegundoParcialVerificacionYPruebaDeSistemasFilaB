@@ -1,4 +1,4 @@
-package webUI.factoryBrowser;
+package webUITodoist.factoryBrowser;
 
 public class FactoryBrowser {
     public static IBrowser make(String type){

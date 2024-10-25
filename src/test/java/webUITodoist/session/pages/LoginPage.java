@@ -1,8 +1,8 @@
-package webUI.pages.todoist;
+package webUITodoist.session.pages;
 
 import org.openqa.selenium.By;
-import webUI.controls.Button;
-import webUI.controls.TextBox;
+import webUITodoist.controls.Button;
+import webUITodoist.controls.TextBox;
 
 public class LoginPage {
     public Button mainLoginButton = new Button(By.xpath("//a[contains(text(),\"Iniciar sesi\" )]"));

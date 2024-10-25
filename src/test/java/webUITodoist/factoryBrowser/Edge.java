@@ -1,4 +1,4 @@
-package webUI.factoryBrowser;
+package webUITodoist.factoryBrowser;
 
 import org.openqa.selenium.WebDriver;
 public class Edge implements IBrowser{

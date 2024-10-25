@@ -1,12 +1,12 @@
-package webUI.pages.todoist;
+package webUITodoist.session.pages;
 
 import org.openqa.selenium.By;
-import webUI.controls.Button;
+import webUITodoist.controls.Button;
 
 public class MenuSection {
     public Button addTaskButton = new Button(By.xpath("//*[@id=\"agenda_view\"]/div/section[2]/div[2]/ul/li/button"));
     public Button informationButton = new Button(By.xpath("//*[@id=\":r0:\"]"));
-    public Button settingsButton = new Button(By.id("user_menu_settings_menuitem"));
+    public Button settingsButton = new Button(By.className("user_menu_label"));
     public Button closeSession = new Button(By.xpath("//span[contains(text(),'Cerrar sesi')]"));
     public Button projectButton = new Button(By.xpath("//div[@class=\"nuMVpup _2a3b75a1 _509a57b4 c4803194 b0e6eab4 cad4e2ec e5a9206f _50ba6b6b f6342c26 _34cd2b5e\"]"));
     public Button addProjectButton = new Button(By.xpath("//button[@class=\"_8313bd46 _54d56775 _5e45d59f _2a3b75a1 _56a651f6\"]"));

@@ -1,4 +1,4 @@
-package webUI.controls;
+package webUITodoist.controls;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

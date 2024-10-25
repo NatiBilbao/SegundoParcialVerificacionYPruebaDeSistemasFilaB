@@ -1,8 +1,8 @@
-package webUI.controls;
+package webUITodoist.controls;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import webUI.session.Session;
+import webUITodoist.session.Session;
 
 public class Control {
     protected By locator;

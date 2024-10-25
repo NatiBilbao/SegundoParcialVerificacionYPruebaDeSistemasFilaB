@@ -1,8 +1,8 @@
-package webUI.pages.todoist;
+package webUITodoist.session.pages;
 
 import org.openqa.selenium.By;
-import webUI.controls.Button;
-import webUI.controls.TextBox;
+import webUITodoist.controls.Button;
+import webUITodoist.controls.TextBox;
 
 public class TaskSection {
     public TextBox taskNameTextBox = new TextBox(By.xpath("//p[@data-placeholder=\"Nombre de la tarea\"]"));

@@ -1,8 +1,8 @@
-package webUI.pages.todoist;
+package webUITodoist.session.pages;
 
 import org.openqa.selenium.By;
-import webUI.controls.Button;
-import webUI.controls.TextBox;
+import webUITodoist.controls.Button;
+import webUITodoist.controls.TextBox;
 
 public class SignUpPage {
     public TextBox emailTextBox = new TextBox(By.xpath("//input[@placeholder=\"Introduce tu email...\"]"));

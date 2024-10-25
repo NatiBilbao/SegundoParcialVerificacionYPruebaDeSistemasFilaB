@@ -1,8 +1,8 @@
-package webUI.pages.todoist;
+package webUITodoist.session.pages;
 
 import org.openqa.selenium.By;
-import webUI.controls.Button;
-import webUI.controls.TextBox;
+import webUITodoist.controls.Button;
+import webUITodoist.controls.TextBox;
 
 public class AddProjectSection {
     public TextBox nametextBox = new TextBox(By.id("edit_project_modal_field_name"));
